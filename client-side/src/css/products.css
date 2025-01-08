@@ -1,0 +1,28 @@
+/* Main container for the application layout */
+.appContainer {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks child elements vertically */
+    min-height: 100vh; /* Ensures the container spans at least the full viewport height */
+}
+
+/* Styling for the center area of the application */
+.centerArea {
+    flex: 1; /* Allows the center area to grow and fill available space */
+}
+
+/* Styling for the toggle cart button */
+.toggle-cart-button {
+    background-color: #000053 !important; /* Sets a dark blue background for the button */
+    color: #ffffff !important; /* Ensures the text color is white for contrast */
+    width: 200px !important; /* Fixes the button width */
+    padding: 8px 16px !important; /* Adds padding inside the button for better sizing */
+    margin: 0 auto !important; /* Centers the button horizontally */
+    border-radius: 4px !important; /* Adds rounded corners for a polished look */
+    text-transform: none !important; /* Prevents automatic capitalization of the button text */
+    margin-top: 10px !important; /* Adds spacing above the button */
+}
+
+/* Hover effect for the toggle cart button */
+.toggle-cart-button:hover {
+    background-color: #000084 !important; /* Changes the background to a lighter blue on hover */
+}

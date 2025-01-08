@@ -1,0 +1,42 @@
+/* Main container for the page layout */
+.page-container {
+  display: flex; /* Enables flexbox layout for child elements */
+  flex-direction: column; /* Stacks child elements vertically */
+  min-height: 100vh; /* Ensures the container spans at least the full viewport height */
+}
+
+/* Styling for the content area of the page */
+.content {
+  flex: 1; /* Allows the content to grow and fill available space */
+  padding: 20px; /* Adds padding inside the content area for spacing */
+}
+
+/* Styling for cards used in the layout */
+.card {
+  border-radius: 8px; /* Rounds the corners for a polished appearance */
+}
+
+/* Styling for the cart total section */
+.cart-total {
+  text-align: right; /* Aligns text to the right side */
+  margin-top: 20px; /* Adds spacing above the total section */
+}
+
+/* Styling for the "cart empty" message */
+.cart-empty-message {
+  text-align: center; /* Centers the text horizontally */
+  color: #888; /* Applies a muted gray color for less emphasis */
+  margin-top: 40px; /* Adds spacing above the message */
+}
+
+/* Styling for the cart checkout button */
+.cart-checkout-button {
+  background-color: #000053 !important; /* Sets a dark blue background color */
+  color: white !important; /* Ensures the text color is white */
+  text-transform: none !important; /* Prevents automatic text capitalization */
+}
+
+/* Styling for the cart checkout button on hover */
+.cart-checkout-button:hover {
+  background-color: #000084 !important; /* Changes to a slightly lighter blue on hover */
+}

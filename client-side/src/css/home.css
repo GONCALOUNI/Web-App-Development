@@ -1,1 +1,70 @@
+/* Main container for the home view */
+.homeViewContainer {
+  position: relative; /* Ensures elements can be positioned relative to this container */
+  width: 100vw; /* Sets the container width to cover the full viewport */
+  height: 100vh; /* Sets the container height to cover the full viewport */
+  overflow: hidden; /* Prevents content from overflowing outside the container */
+}
 
+/* Background styling for the home view */
+.homeViewBackground {
+  position: absolute; /* Positions the background relative to the container */
+  top: 0; /* Aligns the background to the top */
+  left: 0; /* Aligns the background to the left */
+  width: 100%; /* Ensures the background covers the full width of the container */
+  height: 100%; /* Ensures the background covers the full height of the container */
+  background-image: url('../../public/assets/images/wallpaper.gif'); /* Sets the background image */
+  background-size: cover; /* Ensures the image covers the container without distortion */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  z-index: -1; /* Places the background behind other content */
+}
+
+/* Content styling for the home view */
+.homeViewContent {
+  position: relative; /* Positions elements relative to the container */
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Aligns elements in a vertical column */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  height: 100%; /* Ensures the content spans the full container height */
+  color: #ffffff; /* Sets the text color to white for contrast */
+  z-index: 1; /* Ensures the content is layered above the background */
+}
+
+/* Styling for the home view logo */
+.homeViewLogo {
+  width: 250px; /* Sets the logo width */
+  height: auto; /* Maintains the aspect ratio of the logo */
+  margin-bottom: 20px; /* Adds spacing below the logo */
+  pointer-events: none; /* Disables interactions with the logo */
+  user-select: none; /* Prevents the logo from being selected */
+}
+
+/* Styling for the main button in the home view */
+.homeViewButton {
+  margin-top: 24px; /* Adds spacing above the button */
+  margin-bottom: 24px; /* Adds spacing below the button */
+  background-color: #000053 !important; /* Sets the button background color */
+  outline-color: #ffffff; /* Sets the outline color for focus states */
+  size: large; /* Sets the button size to large */
+}
+
+/* Hover effect for the home view button */
+.homeViewButton:hover {
+  background-color: #000084 !important; /* Changes the background color on hover */
+}
+
+/* Styling for the copyright text in the home view */
+.homeViewCopyright {
+  margin-top: 20px; /* Adds spacing above the copyright text */
+  font-size: 14px; /* Sets the font size */
+  color: #ffffff; /* Sets the text color to white */
+  text-align: center; /* Centers the text horizontally */
+}
+
+/* Global heading styles for the home view */
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif; /* Sets the font family for headings */
+  color: #FFFFFF!important; /* Ensures the heading text color is white */
+}

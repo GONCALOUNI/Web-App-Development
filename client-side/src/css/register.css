@@ -1,0 +1,84 @@
+/* Global styles for the HTML and body elements */
+html, body {
+  height: 100%; /* Ensures the elements span the full viewport height */
+  width: 100vw; /* Sets the width to cover the full viewport */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+/* Main container for the page layout */
+.page-container {
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Stacks child elements vertically */
+  min-height: 100.6vh; /* Ensures the container is slightly taller than the viewport to avoid cutoffs */
+}
+
+/* Styling for the main content area */
+.content {
+  flex: 1; /* Allows the content area to grow and fill available space */
+}
+
+/* Styling for the register view container */
+.register-view {
+  min-height: 100vh; /* Ensures the view spans the full viewport height */
+  background-color: #ffffff; /* Sets a white background */
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Aligns child elements vertically */
+  justify-content: flex-start; /* Aligns elements to the top */
+  align-items: center; /* Centers elements horizontally */
+  font-family: sans-serif; /* Sets the font family */
+}
+
+/* Styling for the main register button */
+.register-button {
+  background-color: #000053 !important; /* Sets a dark blue background */
+  color: #ffffff !important; /* Ensures white text for contrast */
+  width: 200px !important; /* Fixes the button width */
+  padding: 8px 16px !important; /* Adds padding for better sizing */
+  margin: 0 auto !important; /* Centers the button horizontally */
+  border-radius: 4px !important; /* Adds rounded corners */
+  text-transform: none !important; /* Prevents automatic capitalization of button text */
+}
+
+/* Hover effect for the register button */
+.register-button:hover {
+  background-color: #000084 !important; /* Changes the background to a lighter blue on hover */
+}
+
+/* Custom styling for Material-UI text fields */
+.custom-textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #000053 !important; /* Sets the border color to dark blue */
+}
+
+.custom-textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #000053 !important; /* Maintains the dark blue border when focused */
+}
+
+.custom-textfield .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #000053 !important; /* Keeps the dark blue border on hover */
+}
+
+.custom-textfield .MuiFormLabel-root.Mui-focused {
+  color: #000053 !important; /* Changes the label color to dark blue when focused */
+}
+
+/* Styling for the register content area */
+.register-content {
+  flex: 1; /* Allows the content area to grow and fill available space */
+}
+
+/* Styling for the alternate login button */
+.alternate-login-button {
+  background-color: #000053 !important; /* Sets a dark blue background */
+  color: #ffffff !important; /* Ensures white text for contrast */
+  width: 81px !important; /* Fixes the button width */
+  padding: 8px 16px !important; /* Adds padding for better sizing */
+  margin: 0 auto !important; /* Centers the button horizontally */
+  border-radius: 4px !important; /* Adds rounded corners */
+  text-transform: none !important; /* Prevents automatic capitalization of button text */
+}
+
+/* Hover effect for the alternate login button */
+.alternate-login-button:hover {
+  background-color: #000084 !important; /* Changes the background to a lighter blue on hover */
+}

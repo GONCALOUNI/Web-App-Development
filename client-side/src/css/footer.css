@@ -1,0 +1,23 @@
+/* Styling for the footer container */
+.footer {
+  background-color: #000053 !important; /* Sets a dark blue background color */
+  color: #ffffff; /* Sets the text color to white for high contrast */
+  display: flex; /* Enables flexbox layout for arranging child elements */
+  justify-content: space-between; /* Distributes child elements evenly with space in between */
+  align-items: center; /* Vertically aligns items to the center of the container */
+  padding: 0 16px; /* Adds horizontal padding for spacing */
+  width: 1200px; /* Fixes the width of the footer */
+  height: 64px; /* Sets a fixed height for the footer */
+}
+
+/* Styling for buttons within the footer */
+.footer-button {
+  color: #ffffff !important; /* Ensures the button text is white */
+  text-transform: none; /* Prevents automatic capitalization of button text */
+}
+
+/* Styling for footer buttons on hover */
+.footer-button:hover {
+  background-color: #ffffff; /* Changes the background to white on hover */
+  color: #000053 !important; /* Changes the text color to dark blue for contrast */
+}

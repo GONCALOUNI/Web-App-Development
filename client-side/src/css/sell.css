@@ -1,0 +1,81 @@
+/* Main container for the page layout */
+.page-container {
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Stacks child elements vertically */
+  min-height: 100vh; /* Ensures the container spans at least the full viewport height */
+}
+
+/* Styling for the main content area */
+.content {
+  flex: 1; /* Allows the content area to grow and fill available space */
+  padding: 20px; /* Adds padding for spacing */
+  background-color: #f5f5f5; /* Sets a light gray background color */
+}
+
+/* Styling for the container of the sell page */
+.sell-container {
+  margin-top: 64px !important; /* Adds spacing above the container */
+  width: 600px !important; /* Fixes the width of the container */
+  padding: 20px; /* Adds padding inside the container */
+  border-radius: 8px; /* Adds rounded corners for a polished look */
+}
+
+/* Styling for the sell page title */
+.sell-title {
+  margin-bottom: 20px; /* Adds spacing below the title */
+}
+
+/* Styling for the form on the sell page */
+.sell-form {
+  display: flex; /* Enables flexbox layout for the form fields */
+  flex-direction: column; /* Arranges form fields vertically */
+  gap: 16px; /* Adds spacing between form fields */
+}
+
+/* Custom styling for Material-UI text fields */
+.custom-textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #000053 !important; /* Sets the border color to dark blue */
+}
+
+.custom-textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #000053 !important; /* Maintains the dark blue border when focused */
+}
+
+.custom-textfield .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #000053 !important; /* Keeps the dark blue border on hover */
+}
+
+.custom-textfield .MuiFormLabel-root.Mui-focused {
+  color: #000053 !important; /* Changes the label color to dark blue when focused */
+}
+
+/* Styling for the upload button */
+.upload-button {
+  background-color: #333333 !important; /* Sets a dark gray background */
+  color: #ffffff !important; /* Ensures white text for contrast */
+  width: 250px !important; /* Fixes the button width */
+  text-transform: none !important; /* Prevents automatic capitalization of button text */
+}
+
+/* Hover effect for the upload button */
+.upload-button:hover {
+  background-color: #444444 !important; /* Changes the background to a lighter gray on hover */
+}
+
+/* Styling for the publish button */
+.publish-button {
+  background-color: #000053 !important; /* Sets a dark blue background */
+  color: #ffffff !important; /* Ensures white text for contrast */
+  text-transform: none !important; /* Prevents automatic capitalization of button text */
+}
+
+/* Hover effect for the publish button */
+.publish-button:hover {
+  background-color: #000084 !important; /* Changes the background to a lighter blue on hover */
+}
+
+/* Styling for the image name display */
+.image-name {
+  color: #000000; /* Sets the text color to black */
+  font-weight: bold; /* Makes the text bold for emphasis */
+}

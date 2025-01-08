@@ -1,0 +1,21 @@
+/* Styling for the main container of the page */
+.page-container {
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Aligns children in a vertical column */
+  min-height: 100vh; /* Ensures the container spans at least the full viewport height */
+}
+
+/* Styling for the content section within the page */
+.content {
+  flex: 1; /* Allows the content to expand and fill available space */
+  padding: 20px; /* Adds space inside the content for better readability */
+  background-color: #f5f5f5; /* Sets a light gray background color for contrast */
+}
+
+/* Styling for the about section container */
+.about-container {
+  background-color: #ffffff; /* Sets a white background for the container */
+  padding: 20px; /* Adds padding inside the container for spacing */
+  border-radius: 8px; /* Rounds the corners for a softer appearance */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}

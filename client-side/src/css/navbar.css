@@ -1,0 +1,65 @@
+/* Styling for the navbar container */
+.navbar {
+  background-color: #000053 !important; /* Sets a dark blue background color for the navbar */
+  box-shadow: none !important; /* Removes any default shadow from the navbar */
+  z-index: -1; /* Places the navbar layer behind other elements */
+}
+
+/* Styling for the toolbar inside the navbar */
+.navbar-toolbar {
+  display: flex; /* Enables flexbox layout for arranging child elements */
+  justify-content: space-between; /* Distributes child elements with space between them */
+  align-items: center; /* Vertically aligns elements in the center */
+}
+
+/* Styling for the navbar logo */
+.navbar-logo {
+  height: 35px; /* Sets the logo height */
+  cursor: pointer; /* Changes the cursor to a pointer for interactivity */
+}
+
+/* Container for the navbar buttons */
+.navbar-buttons {
+  display: flex; /* Enables flexbox layout for arranging buttons */
+  gap: 10px; /* Adds spacing between buttons */
+}
+
+/* Styling for individual navbar buttons */
+.navbar-button {
+  color: #ffffff !important; /* Sets the button text color to white */
+  text-transform: none; /* Prevents automatic capitalization of button text */
+}
+
+/* Hover effect for navbar buttons */
+.navbar-button:hover {
+  background-color: #ffffff; /* Changes the background color to white on hover */
+  color: #000053 !important; /* Changes the text color to dark blue on hover */
+  cursor: pointer; /* Changes the cursor to a pointer for interactivity */
+}
+
+/* Styling for the welcome message in the navbar */
+.navbar-welcome {
+  color: #ffffff !important; /* Sets the text color to white */
+  margin-left: 5px !important; /* Adds spacing to the left */
+  margin-top: 8px !important; /* Adds spacing to the top */
+  font-weight: bold !important; /* Makes the text bold */
+}
+
+/* Container for the cart icon in the navbar */
+.cart-icon-container {
+  position: relative; /* Positions the cart icon relative to its container */
+}
+
+/* Styling for the cart item count badge */
+.cart-item-count {
+  position: absolute; /* Positions the badge relative to the cart icon */
+  top: 0px; /* Aligns the badge to the top of the cart icon */
+  right: -5px; /* Aligns the badge slightly to the right of the cart icon */
+  background-color: red; /* Sets a red background color for the badge */
+  color: white; /* Sets the text color to white */
+  border-radius: 50%; /* Makes the badge circular */
+  padding: 2px 6px; /* Adds padding for spacing inside the badge */
+  font-size: 12px; /* Sets the font size for the badge text */
+  font-weight: bold; /* Makes the badge text bold */
+  z-index: 1; /* Places the badge above other elements */
+}

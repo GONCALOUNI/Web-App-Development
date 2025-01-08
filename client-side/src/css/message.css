@@ -1,0 +1,32 @@
+/* Main container for the message view */
+.messageViewContainer {
+  position: relative; /* Positions child elements relative to this container */
+  width: 100vw; /* Sets the container width to the full viewport width */
+  height: 100vh; /* Sets the container height to the full viewport height */
+  overflow: hidden; /* Prevents content from overflowing outside the container */
+  display: flex; /* Enables flexbox layout for child elements */
+  justify-content: center; /* Centers child elements horizontally */
+  align-items: center; /* Centers child elements vertically */
+}
+
+/* Background styling for the message view */
+.messageViewBackground {
+  position: absolute; /* Positions the background relative to the container */
+  top: 0; /* Aligns the background to the top */
+  left: 0; /* Aligns the background to the left */
+  width: 100%; /* Ensures the background covers the full width of the container */
+  height: 100%; /* Ensures the background covers the full height of the container */
+  background-image: url('../../public/assets/images/wallpaper.gif'); /* Sets the background image */
+  background-size: cover; /* Ensures the image covers the container without distortion */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  z-index: -1; /* Places the background behind other content */
+}
+
+/* Content styling for the message view */
+.messageViewContent {
+  position: relative; /* Positions the content relative to the container */
+  z-index: 1; /* Ensures the content is layered above the background */
+  text-align: center; /* Centers the text horizontally */
+  color: white; /* Sets the text color to white for contrast */
+}
