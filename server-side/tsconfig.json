@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6", /* Specifies the JavaScript version (ECMAScript 6) to which TypeScript compiles */
+    "module": "commonjs", /* Defines the module system as CommonJS, typically used in Node.js environments */
+    "strict": true, /* Enables strict type-checking options for better code reliability */
+    "esModuleInterop": true, /* Ensures compatibility with ES module syntax for imports/exports */
+    "skipLibCheck": true, /* Skips type checking for declaration files in node_modules to speed up compilation */
+    "outDir": "./build" /* Specifies the output directory for compiled JavaScript files */
+  },
+  "include": ["src/**/*.ts"], /* Includes all TypeScript files in the `src` directory and its subdirectories */
+  "exclude": ["node_modules"] /* Excludes the `node_modules` directory from the compilation process */
+}
