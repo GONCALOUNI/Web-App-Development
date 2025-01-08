@@ -1,1 +1,6 @@
-
+{
+    "presets": [
+        ["@babel/preset-env"], /* Configures Babel to transpile modern JavaScript (ES6+) into compatible code for older environments */
+        ["@babel/preset-react"] /* Adds support for transpiling JSX and other React-specific syntax */
+    ]
+}

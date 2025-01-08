@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", /* Specifies the directory where compiled JavaScript files will be output */
+    "esModuleInterop": true, /* Enables compatibility with ES modules for importing/exporting */
+    "sourceMap": true, /* Generates source map files for debugging TypeScript in browsers or editors */
+    "noImplicitAny": false, /* Allows variables and parameters without explicit types to default to `any` */
+    "module": "commonjs", /* Sets the module system to CommonJS (used in Node.js environments) */
+    "target": "es6", /* Specifies the JavaScript version to which TypeScript compiles (ES6 in this case) */
+    "lib": ["es2015", "es2017", "dom"], /* Includes libraries for ES2015, ES2017, and DOM-related types */
+    "removeComments": true, /* Removes comments from the compiled JavaScript files */
+    "jsx": "react", /* Enables JSX syntax support for React development */
+    "allowJs": true, /* Allows JavaScript files to be included in the compilation process */
+    "baseUrl": "./", /* Sets the base directory for resolving non-relative module imports */
+    "paths": { "components/*": ["src/components/*"] } /* Defines custom module resolution paths for cleaner imports */
+  },
+  "exclude": [
+    "dist", /* Excludes the output directory to prevent re-compilation */
+    "postcss.config.js", /* Excludes the PostCSS configuration file */
+    "webpack.config.js" /* Excludes the Webpack configuration file */
+  ]
+}
